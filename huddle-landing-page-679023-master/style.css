@@ -4,13 +4,14 @@ html *
    color: #000 !important;
    font-family: 'Open Sans', sans-serif !important;
 }
-body {
+body 
+{
+    background-color:#674BB1;
     background-image: url('/images/bg-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     color:#fff;
-
     @media screen and (min-width: 640px){
         background-image: url('/images/bg-desktop.svg');  
     }
