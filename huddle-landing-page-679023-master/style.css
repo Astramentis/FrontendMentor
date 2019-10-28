@@ -3,13 +3,15 @@ html *
    font-size: 2rem !important;
    color: #000 !important;
    font-family: 'Open Sans', sans-serif !important;
-   background-image: url('/images/bg-desktop.svg');
 }
 body {
-
+    background-image: url('/images/bg-mobile.svg');
     background-size: cover;
-}
-#background{
-    position: absolute;
-    top:60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:#fff;
+
+    @media screen and (min-width: 640px){
+        background-image: url('/images/bg-desktop.svg');  
+    }
 }
