@@ -21,7 +21,38 @@ body
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .column{
     flex:50%;
 }
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.button {
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: transparent;
+    color: white;
+  }
+  
